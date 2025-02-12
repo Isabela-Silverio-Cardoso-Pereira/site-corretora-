@@ -1,0 +1,87 @@
+/* Reset básico */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f3ff;
+    font-family: "Arial", sans-serif;
+    color: #4a4a4a;
+}
+
+menu {
+    background-color: #ffffff;
+    color: #422121;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link {
+    color: #422121;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: #eac065;
+}
+
+.botoes {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #422121;
+    font-family: "Bodoni MT", serif;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    margin: 200px 50px;
+}
+
+.botoes:hover {
+    background-color: #eac065;
+}
+
+#buscar {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #422121;
+    cursor: pointer;
+}
+
+#buscar:hover {
+    background-color: #eac065;
+}
+
+.seletor1 {
+    display: none;
+}
+.seletor2{
+    display: none;
+}
+.seletor3{
+    display: none;
+}
+.seletor4{
+    display: none;
+}
+#codigo{
+    display: none;
+}
+.titulos{
+    font-family: Avenir;
+
+    color: #422121;
+    font-size: 50px
+}
+.subtitulos{
+    font-family: Avenir;
+    color: #422121;
+    font-size: 20px
+}
