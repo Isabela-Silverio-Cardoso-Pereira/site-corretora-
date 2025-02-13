@@ -1,19 +1,27 @@
-/* Reset básico */
+
 body {
+    background-image: url('sala.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Faz com que o fundo ocupe toda a altura da tela */
     margin: 0;
     padding: 0;
-    background-color: #f9f3ff;
     font-family: "Arial", sans-serif;
-    color: #4a4a4a;
+
 }
 
 menu {
+    background-color: rgba(255, 255, 255, 0.85);
     background-color: #ffffff;
     color: #422121;
     padding: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    width: 100%;
+
 }
 
 #logo{
@@ -27,6 +35,8 @@ menu {
     color: #422121;
     text-decoration: none;
     font-weight: bold;
+
+
 }
 
 .link:hover {
@@ -42,10 +52,22 @@ menu {
     background-color: #422121;
     font-family: "Bodoni MT", serif;
     font-size: 20px;
-    text-align: center;
-    display: inline-block;
+
     cursor: pointer;
     margin: 200px 50px;
+    border: none;
+    transition: 0.3s;
+
+    align-items: center;
+    justify-content: center ;
+    display: inline-block;
+    flex-direction: row;
+    margin-left: 90px;
+
+
+
+
+
 }
 
 .botoes:hover {
@@ -60,18 +82,32 @@ menu {
     border: 2px solid white;
     background-color: #422121;
     cursor: pointer;
+    border: none;
+    transition: 0.3s;
+
+
 }
 
 #buscar:hover {
     background-color: #eac065;
+
+
+}
+
+#buscar:active {
+    background-color: #eac065;
+    box-shadow: 0 5px #d19a29;
+    transform: translateY(4px);
 }
 
 .seletor1 {
     display: none;
 }
+
 .seletor2{
     display: none;
 }
+
 .seletor3{
     display: none;
 }
@@ -95,3 +131,43 @@ menu {
     margin-left: 50px;
     margin-right: 50px;
 }
+
+#telefoneFooter{
+    font-size: 15px;
+    margin-left: 500px;
+    color: #ffffff;
+    font-family: 'HoloLens MDL2 Assets';
+    text-decoration: none;
+}
+
+#telefoneFooter:hover{
+  color: #eac065;
+    text-decoration: underline;
+}
+#emailFooter{
+    font-size: 15px;
+    margin-left: 500px;
+    color: #ffffff;
+    font-family: 'HoloLens MDL2 Assets';
+    text-decoration: none;
+}
+
+#emailFooter:hover{
+    color: #eac065;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #422121;
+
+
+}
+#buscarCodigo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    color: #422121;
+
+}
+
